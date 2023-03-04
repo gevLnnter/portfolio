@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.from-primary {
+  --tw-gradient-from: #9571f5;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgba(34, 211, 238, 0));
+}
+
+.to-secondary {
+  --tw-gradient-to: #e38bde;
+}
+
+.servies--imageHeight {
+  height: 220px;
+  width: 100%;
+  object-fit: contain;
+}
